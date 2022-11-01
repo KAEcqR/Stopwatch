@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height:100vh;
+    width: 100%;
+    background-color: rgb(255, 153, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 40%;
+    height: 30%;
+    text-align: center;
+}
+
+.napis{
+    color: white;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+.time{
+    color: white;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+button{
+    margin-top: 10px;
+    width: 150px;
+    height: 60px;
+    border: solid 1px white;
+    color: white;
+    background-color: rgb(253, 197, 123);
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+button:hover{
+    background:rgb(255, 230, 198) ;
+}
